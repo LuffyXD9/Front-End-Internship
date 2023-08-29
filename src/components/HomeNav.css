@@ -1,0 +1,47 @@
+.navbar {
+    display: flex;
+    background-color: black;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .media-control {
+    display: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .media-control.active {
+    display: block;
+  }
+  
+  .nav-items {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-item {
+    color: white;
+    margin-right: 20px;
+    cursor: pointer;
+  }
+  
+  .selected {
+    color: yellow;
+    font-weight: bold;
+  }
+  
+  @media (max-width: 60%) {
+    .nav-items {
+      display: block;
+      flex-direction: column;
+      align-items: flex-end;
+    }
+  
+    .nav-items.hidden {
+      display: none;
+    }
+}
+  

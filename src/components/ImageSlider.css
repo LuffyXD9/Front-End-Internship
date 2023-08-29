@@ -1,0 +1,70 @@
+/* ImageSlider.css */
+
+.slider {
+  position: relative;
+  overflow: hidden;
+  margin: 20px 0;
+}
+
+.slider-container {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.slider-content {
+  display: flex;
+  transition: transform 0.3s ease-in-out;
+}
+
+.slider-item {
+  flex: 0 0 calc(100% / 5); /* Display 5 images in a row */
+  padding: 5px;
+}
+
+.slider-item img {
+  width: 100%;
+  height: auto;
+}
+
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 24px;
+  color: white;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 5px;
+  border-radius: 50%;
+  transition: background-color 0.3s ease-in-out;
+  z-index: 1;
+}
+
+.arrow:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.arrow-left {
+  left: 10px;
+}
+
+.arrow-right {
+  right: 10px;
+}
+.slider-item {
+  position: relative; /* Add this to make positioning of title relative to image */
+}
+
+.slider-item img {
+  width: 100%;
+  height: auto;
+}
+
+.image-title {
+  text-align: center;
+  font-weight: bold;
+  color: black;
+  margin-top: 5px;
+}

@@ -1,0 +1,116 @@
+/* ProductListing.css */
+
+.product-listing {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .product-item {
+    position: relative;
+    width: calc(16.666% - 20px); /* 6 products in a row */
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+    overflow: hidden;
+  }
+  .product-image-container {
+    position: relative;
+  }
+  
+  .product-item:hover {
+    transform: translateY(-5px);
+  }
+  
+  .product-discount {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    font-weight: bold;
+    font-size: 14px;
+  }
+  
+  .product-image {
+    width: 100%;
+    height: auto;
+    transition: transform 0.2s ease-in-out;
+  }
+  .product-image:hover + .product-quick-view,
+.product-quick-view:hover {
+  opacity: 1;
+}
+  .product-item:hover .product-image {
+    transform: scale(1.05);
+  }
+  
+  
+  .silver-text {
+    color: silver;
+  }
+  
+  .product-name {
+    font-weight: bold;
+    margin: 5px 0;
+  }
+  
+  .price-info {
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+  }
+  
+  .original-price {
+    text-decoration: line-through;
+    margin-right: 10px;
+    color: gray;
+  }
+  
+  .current-price {
+    font-weight: bold;
+    color: black;
+    font-size: 18px;
+    margin-right: 10px;
+  }
+  
+  .select-options-button {
+    background-color: #FFC300;
+    color: black;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .select-options-button:hover {
+    background-color: white;
+    color: #FFC300;
+  }
+  .product-quick-view {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #FFC300;
+    color: black;
+    padding: 10px 5px;
+    border-radius: 8px;
+    font-weight: bold;
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+  }
+  .product-item:hover .product-quick-view {
+    opacity: 1;
+  }
+  

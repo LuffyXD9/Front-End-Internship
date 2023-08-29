@@ -1,0 +1,83 @@
+/* ToolsBanner.css */
+
+.tools-banner {
+  display: flex;
+  width: 100%;
+  background-color: #293250;
+  color: white;
+  overflow: hidden;
+  flex-direction: column; /* Default to column layout for mobile */
+}
+
+.tools-banner-image {
+  flex: 1;
+  overflow: hidden;
+}
+
+.tools-banner-image img {
+  width: 100%;
+  height: auto; /* Adjust the image height to maintain aspect ratio */
+  border-radius: 8px;
+  cursor: pointer;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.tools-banner-image img:hover {
+  opacity: 0.8;
+}
+
+.tools-banner-content {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.tools-banner-text {
+  text-align: center; /* Center text on both mobile and desktop */
+}
+
+.tools-bold-text {
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 6px;
+}
+
+.tools-smaller-text {
+  font-size: 18px;
+  color: silver;
+  margin-bottom: 12px;
+}
+
+.tools-yellow-button {
+  background-color: yellow;
+  color: black;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.tools-yellow-button:hover {
+  background-color: black;
+  color: yellow;
+}
+
+/* Media query for desktop screens */
+@media (min-width: 768px) {
+  .tools-banner {
+    flex-direction: row;
+  }
+
+  .tools-banner-content {
+    padding: 0 20px; /* Add horizontal padding for desktop layout */
+  }
+
+  .tools-banner-text {
+    text-align: left;
+  }
+}
