@@ -196,6 +196,7 @@ const companyLogos = [
 function App() {
   return (
     <>
+    <div className="App">
       <Alert/>
       <SearchBar/>
       <HomeNav/>
@@ -219,6 +220,7 @@ function App() {
         <CompanyLogos logos={companyLogos}/>
         <FeatureCards/>
         <Footer/>
+        </div>
     </>
   );
 }
