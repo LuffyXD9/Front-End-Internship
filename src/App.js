@@ -28,6 +28,8 @@ import Categories from './components/Categories';
 import Wallpaper from './components/Wallpaper';
 import Switches from './components/Switches';
 import CompanyLogos from './components/CompanyLogos';
+import FeatureCards from './components/FeatureCards';
+import Footer from './components/Footer';
 
 const products = [
   {
@@ -213,6 +215,8 @@ function App() {
         playstoreLink="https://play.google.com/store/apps"/>
         <Switches products={paintProducts}/>
         <CompanyLogos logos={companyLogos}/>
+        <FeatureCards/>
+        <Footer/>
     </>
   );
 }
