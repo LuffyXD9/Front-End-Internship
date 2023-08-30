@@ -2,16 +2,16 @@ import React, { useState } from 'react';
 import './HomeNav.css'; // Make sure to create the corresponding CSS file
 
 const HomeNav = () => {
-    const [selectedItem, setSelectedItem] = useState('Home');
-    const [showMediaControl, setShowMediaControl] = useState(false);
-  
-    const handleItemClick = (item) => {
-      setSelectedItem(item);
-    };
-  
-    const toggleMediaControl = () => {
-      setShowMediaControl(!showMediaControl);
-    };
+  const [selectedItem, setSelectedItem] = useState('Home');
+  const [showMediaControl, setShowMediaControl] = useState(false);
+
+  const handleItemClick = (item) => {
+    setSelectedItem(item);
+  };
+
+  const toggleMediaControl = () => {
+    setShowMediaControl(!showMediaControl);
+  };
 
   const navItems = ['Home', 'Shop', 'Paints', 'Electricals','SANITARY WARE','CEMENTS & POP','ADHESIVE','CLEANING','TOOLS','TRACKING'];
 
