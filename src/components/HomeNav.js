@@ -16,7 +16,7 @@ const HomeNav = () => {
   const navItems = ['Home', 'Shop', 'Paints', 'Electricals','SANITARY WARE','CEMENTS & POP','ADHESIVE','CLEANING','TOOLS','TRACKING'];
 
   return (
-    <div className="navbar">
+    <div className="navbarh">
       <div className={`media-control ${showMediaControl ? 'active' : ''}`} onClick={toggleMediaControl}>
         ☰
       </div>

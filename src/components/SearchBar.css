@@ -1,0 +1,65 @@
+/* SearchBar.css */
+
+/* Desktop styles */
+.navbar {
+    background-color: #f8f9fa;
+    padding: 10px 20px;
+  }
+  
+  .desktop-content {
+    display: flex;
+    align-items: center;
+  }
+  
+  .desktop-content form {
+    margin-right: 20px;
+  }
+  
+  .desktop-content button {
+    margin-right: 10px;
+  }
+  
+  /* Sidebar styles */
+  .sidebar {
+    position: fixed;
+    top: 0;
+    right: -300px; /* Initially hidden */
+    width: 300px;
+    height: 100%;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: right 0.3s ease-in-out;
+  }
+  
+  .sidebar.active {
+    right: 0;
+  }
+  
+  .sidebar form {
+    margin-bottom: 20px;
+  }
+  
+  .sidebar button {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .desktop-content {
+      display: none; /* Hide desktop content on mobile */
+    }
+  
+    .navbar-toggler {
+      display: block;
+    }
+  
+    .cart-buttons {
+      display: flex;
+      align-items: center;
+    }
+  
+    .cart-buttons button {
+      margin-left: 10px; /* Adjust margin for spacing */
+    }
+  } 
