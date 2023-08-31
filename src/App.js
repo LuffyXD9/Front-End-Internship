@@ -221,7 +221,7 @@ function App() {
         <PopularTools products={Popproducts}/>
         <Categories/>
         {/* <Wallpaper imageUrl={require(wallp)} */}
-        playstoreLink="https://play.google.com/store/apps"/>
+        {/* playstoreLink="https://play.google.com/store/apps"/> */}
         <Switches products={paintProducts}/>
         <CompanyLogos logos={companyLogos}/>
         <FeatureCards/>
