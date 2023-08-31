@@ -1,23 +1,35 @@
 {
   "files": {
-    "main.css": "/hardwarehshack-clone/static/css/main.3590afa5.css",
-    "main.js": "/hardwarehshack-clone/static/js/main.476f443d.js",
+    "main.css": "/hardwarehshack-clone/static/css/main.52e3de8d.css",
+    "main.js": "/hardwarehshack-clone/static/js/main.1fc75fa0.js",
     "static/js/787.71f3d9ab.chunk.js": "/hardwarehshack-clone/static/js/787.71f3d9ab.chunk.js",
+    "static/media/logo.png": "/hardwarehshack-clone/static/media/logo.39e8e22a96f1d110080a.png",
+    "static/media/image6.jpg": "/hardwarehshack-clone/static/media/image6.b31edfc6f3e5e2bb5ff8.jpg",
     "static/media/4.jpg": "/hardwarehshack-clone/static/media/4.21bf9e23f245577436b9.jpg",
-    "static/media/2.jpg": "/hardwarehshack-clone/static/media/2.4f25610b49f63abc7295.jpg",
+    "static/media/image7.jpg": "/hardwarehshack-clone/static/media/image7.97748470385af79670c5.jpg",
+    "static/media/image1.jpg": "/hardwarehshack-clone/static/media/image1.29d23dc7a575ea2a1cad.jpg",
+    "static/media/image5.jpeg": "/hardwarehshack-clone/static/media/image5.ee846fd14f92fe0c503a.jpeg",
+    "static/media/image4.jpg": "/hardwarehshack-clone/static/media/image4.72a9832c151f85a0229d.jpg",
     "static/media/1.jpg": "/hardwarehshack-clone/static/media/1.89010c9a27dc89bd09a9.jpg",
+    "static/media/2.jpg": "/hardwarehshack-clone/static/media/2.4f25610b49f63abc7295.jpg",
+    "static/media/3.png": "/hardwarehshack-clone/static/media/3.d26a4b558ea3f1fdb3e8.png",
+    "static/media/image3.jpg": "/hardwarehshack-clone/static/media/image3.cfa30f0bdafe295c3364.jpg",
     "static/media/3.jpg": "/hardwarehshack-clone/static/media/3.b44c142c27036612effb.jpg",
-    "static/media/wall.jpg": "/hardwarehshack-clone/static/media/wall.63b54b36ba6174b66340.jpg",
+    "static/media/4.png": "/hardwarehshack-clone/static/media/4.2ae8e33b415f7c374d7d.png",
+    "static/media/6.png": "/hardwarehshack-clone/static/media/6.a5399f90dabaf1d3aca6.png",
+    "static/media/1.png": "/hardwarehshack-clone/static/media/1.bfe3332237cfbf4adc9e.png",
+    "static/media/image2.jpg": "/hardwarehshack-clone/static/media/image2.c6c7823fef3b75575d3c.jpg",
     "static/media/9.jpg": "/hardwarehshack-clone/static/media/9.116138d2c96c094a82e5.jpg",
     "static/media/7.jpg": "/hardwarehshack-clone/static/media/7.e83217b71c5dd3e7fed9.jpg",
+    "static/media/insta.png": "/hardwarehshack-clone/static/media/insta.ea06e4448b751f716e87.png",
     "static/media/8.jpg": "/hardwarehshack-clone/static/media/8.ba65b4b9c79672a2eb4c.jpg",
     "index.html": "/hardwarehshack-clone/index.html",
-    "main.3590afa5.css.map": "/hardwarehshack-clone/static/css/main.3590afa5.css.map",
-    "main.476f443d.js.map": "/hardwarehshack-clone/static/js/main.476f443d.js.map",
+    "main.52e3de8d.css.map": "/hardwarehshack-clone/static/css/main.52e3de8d.css.map",
+    "main.1fc75fa0.js.map": "/hardwarehshack-clone/static/js/main.1fc75fa0.js.map",
     "787.71f3d9ab.chunk.js.map": "/hardwarehshack-clone/static/js/787.71f3d9ab.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3590afa5.css",
-    "static/js/main.476f443d.js"
+    "static/css/main.52e3de8d.css",
+    "static/js/main.1fc75fa0.js"
   ]
 }
