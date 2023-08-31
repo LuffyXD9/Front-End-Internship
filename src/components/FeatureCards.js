@@ -1,12 +1,12 @@
 import React from 'react';
 import './FeatureCards.css'; // Import CSS file for styling
-
+import f1 from './../images/Features/1.png';
 const FeatureCards = () => {
   return (
     <div className="feature-cards-container">
       <div className="feature-card">
         <div className="icon-container">
-          <img src="./images/Features/1.png" alt="Secure Payment" />
+          <img src={f1} alt="Secure Payment" />
         </div>
         <h3 className="feature-heading">SECURE PAYMENT</h3>
         <p className="feature-description">
@@ -15,7 +15,7 @@ const FeatureCards = () => {
       </div>
       <div className="feature-card">
         <div className="icon-container">
-          <img src="./images/Features/1.png" alt="Customer Support" />
+          <img src={f1} alt="Customer Support" />
         </div>
         <h3 className="feature-heading">24/7 CUSTOMER SUPPORT</h3>
         <p className="feature-description">
@@ -24,7 +24,7 @@ const FeatureCards = () => {
       </div>
       <div className="feature-card">
         <div className="icon-container">
-          <img src="./images/Features/1.png" alt="Fast Delivery" />
+          <img src={f1} alt="Fast Delivery" />
         </div>
         <h3 className="feature-heading">FAST DELIVERY</h3>
         <p className="feature-description">

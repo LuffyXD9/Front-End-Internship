@@ -86,4 +86,11 @@
     width: calc(50% - 20px); /* Adjust for two sections in a row */
     margin: 10px;
   }
+  .new-black-text {
+  text-size-adjust: 10px;
+  }
+  
+  .new-white-text {
+    text-size-adjust: 6px;
+  }
 }

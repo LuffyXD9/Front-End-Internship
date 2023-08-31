@@ -10,7 +10,7 @@ const SearchBar = () => {
 
   return (
     <>
-      <nav className="navbar bg-body-tertiary ">
+      <nav className="navbar bg-body-tertiary">
         <div className="container-fluid">
           <div className="navbar-header">
             <a className="navbar-brand" href="/">
@@ -31,6 +31,9 @@ const SearchBar = () => {
           </div>
 
           <div className={`sidebar ${sidebarOpen ? "active" : ""}`}>
+            <button className="sidebar-close-button" onClick={toggleSidebar}>
+              &times;
+            </button>
             <div className="dropdown">
               <button
                 className="btn btn-secondary dropdown-toggle my-2"

@@ -1,12 +1,16 @@
 import React from 'react';
 import './Categories.css'; // Import CSS file for styling
+import cm1 from './../images/Categories/1.jpg';
+import cm2 from './../images/Categories/2.jpg';
+import cm3 from './../images/Categories/3.jpg';
+import cm4 from './../images/Categories/4.jpg';
 
 const Categories = () => {
   return (
     <div className="categories-container">
       {/* First Card */}
       <div className="category-card">
-        <img src="./images/Categories/1.jpg" alt="Category 1" />
+        <img src={cm1} alt="Category 1" />
         <h3>Company Name 1</h3>
         <ul>
           <li>Item 1</li>
@@ -17,7 +21,7 @@ const Categories = () => {
         <button className="shop-button">Shop Now</button>
       </div>
       <div className="category-card">
-        <img src="./images/Categories/2.jpg" alt="Category 1" />
+        <img src={cm2} alt="Category 1" />
         <h3>Company Name 1</h3>
         <ul>
           <li>Item 1</li>
@@ -28,7 +32,7 @@ const Categories = () => {
         <button className="shop-button">Shop Now</button>
       </div>
       <div className="category-card">
-        <img src="./images/Categories/3.jpg" alt="Category 1" />
+        <img src={cm3} alt="Category 1" />
         <h3>Company Name 1</h3>
         <ul>
           <li>Item 1</li>
@@ -39,7 +43,7 @@ const Categories = () => {
         <button className="shop-button">Shop Now</button>
       </div>
       <div className="category-card">
-        <img src="./images/Categories/4.jpg" alt="Category 1" />
+        <img src={cm4} alt="Category 1" />
         <h3>Company Name 1</h3>
         <ul>
           <li>Item 1</li>

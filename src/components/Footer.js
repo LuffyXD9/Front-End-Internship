@@ -1,6 +1,9 @@
 import React from 'react';
 import './Footer.css'; // Import CSS file for styling
-
+import logo from './../images/Features/logo.png';
+import tlogo from './../images/Features/twitter.png';
+import flogo from './../images/Features/facebook.png';
+import ilogo from './../images/Features/insta.png';
 const Footer = () => {
   return (
     <footer className="footer">
@@ -42,14 +45,14 @@ const Footer = () => {
       </div>
       <div className="footer-section">
         <h3>DOWNLOAD OUR APP</h3><div className="social-icons">
-        <a href="https://www.facebook.com"><img src="./images/features/logo.png" alt="Facebook" /></a></div>
+        <a href="https://www.facebook.com"><img src={logo} alt="Facebook" /></a></div>
       </div>
       <div className="footer-section">
         <h3>CONNECT WITH US</h3>
         <div className="social-icons">
-          <a href="https://www.facebook.com"><img src="./images/features/facebook.png" alt="Facebook" /></a>
-          <a href="https://www.instagram.com"><img src="./images/features/insta.png" alt="Instagram" /></a>
-          <a href="https://www.twitter.com"><img src="./images/features/twitter.png" alt="Twitter" /></a>
+          <a href="https://www.facebook.com"><img src={flogo} alt="Facebook" /></a>
+          <a href="https://www.instagram.com"><img src={ilogo} alt="Instagram" /></a>
+          <a href="https://www.twitter.com"><img src={tlogo} alt="Twitter" /></a>
         </div>
       </div>
     </footer>

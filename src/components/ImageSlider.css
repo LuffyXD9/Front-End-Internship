@@ -1,11 +1,13 @@
 /* ImageSlider.css */
 
+/* Main container for the slider */
 .slider {
   position: relative;
   overflow: hidden;
   margin: 20px 0;
 }
 
+/* Container for the slider content */
 .slider-container {
   display: flex;
   align-items: center;
@@ -13,21 +15,26 @@
   margin: 0 auto;
 }
 
+/* Individual slider items */
 .slider-content {
   display: flex;
   transition: transform 0.3s ease-in-out;
 }
 
+/* Each item in the slider */
 .slider-item {
   flex: 0 0 calc(100% / 5); /* Display 5 images in a row */
   padding: 5px;
+  position: relative; /* Added to make positioning of title relative to image */
 }
 
+/* Slider item images */
 .slider-item img {
   width: 100%;
-  height: auto;
+  height: auto; /* Adjusted to maintain aspect ratio */
 }
 
+/* Navigation arrows */
 .arrow {
   position: absolute;
   top: 50%;
@@ -42,29 +49,32 @@
   z-index: 1;
 }
 
+/* Hover effect for navigation arrows */
 .arrow:hover {
   background-color: rgba(0, 0, 0, 0.7);
 }
 
+/* Positioning of left arrow */
 .arrow-left {
   left: 10px;
 }
 
+/* Positioning of right arrow */
 .arrow-right {
   right: 10px;
 }
-.slider-item {
-  position: relative; /* Add this to make positioning of title relative to image */
-}
 
-.slider-item img {
-  width: 100%;
-  height: auto;
-}
-
+/* Title of each image */
 .image-title {
   text-align: center;
   font-weight: bold;
   color: black;
   margin-top: 5px;
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 768px) {
+  .slider-item {
+    flex: 0 0 calc(100% / 12); /* Display 3 images in a row for mobile */
+  }
 }

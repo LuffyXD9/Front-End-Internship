@@ -2,22 +2,22 @@
 
 /* Desktop styles */
 .navbar {
-    background-color: #f8f9fa;
-    padding: 10px 20px;
-  }
-  
-  .desktop-content {
-    display: flex;
-    align-items: center;
-  }
-  
-  .desktop-content form {
-    margin-right: 20px;
-  }
-  
-  .desktop-content button {
-    margin-right: 10px;
-  }
+  background-color: #f8f9fa;
+  padding: 10px 20px;
+}
+
+.desktop-content {
+  display: flex;
+  align-items: center;
+}
+
+.desktop-content form {
+  margin-right: 20px;
+}
+
+.desktop-content button {
+  margin-right: 10px;
+}
   
   /* Sidebar styles */
   .sidebar {
@@ -30,6 +30,7 @@
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     transition: right 0.3s ease-in-out;
+    z-index: 5;
   }
   
   .sidebar.active {
@@ -45,21 +46,28 @@
     margin-bottom: 10px;
   }
   
+  
   @media (max-width: 768px) {
+    /* Hide desktop content on mobile */
     .desktop-content {
-      display: none; /* Hide desktop content on mobile */
+      display: none;
     }
   
-    .navbar-toggler {
-      display: block;
-    }
-  
+    /* Display sidebar toggle button and cart button in the same row */
     .cart-buttons {
       display: flex;
       align-items: center;
     }
   
     .cart-buttons button {
-      margin-left: 10px; 
+      margin-left: 10px;
     }
-  } 
+  
+    /* Show navbar toggler button */
+    .navbar-toggler {
+      display: block;
+    }
+    .navbar-brand img {
+      width: 150px; /* Adjust the width for mobile */
+  }
+  }  

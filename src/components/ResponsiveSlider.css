@@ -50,6 +50,7 @@
   @media (max-width: 768px) {
     .custom-slider {
       flex-direction: column;
+      height: 40vh;
     }
   
     .custom-arrow {

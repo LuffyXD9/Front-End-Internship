@@ -25,12 +25,21 @@ import Paints from './components/Paints';
 import DualSectionBanner from './components/DualSectionBanner';
 import PopularTools from './components/PopularTools';
 import Categories from './components/Categories';
-import Wallpaper from './components/Wallpaper';
+// import Wallpaper from './components/Wallpaper';
 import Switches from './components/Switches';
 import CompanyLogos from './components/CompanyLogos';
 import FeatureCards from './components/FeatureCards';
 import Footer from './components/Footer';
 import ResponsiveSlider from './components/ResponsiveSlider';
+import bannerimg from './images/ToolsBanner/1.jpg';
+import com1 from './images/CompanyLogos/1.png';
+import com2 from './images/CompanyLogos/2.png';
+import com3 from './images/CompanyLogos/3.png';
+import com4 from './images/CompanyLogos/4.png';
+import com5 from './images/CompanyLogos/5.png';
+import com6 from './images/CompanyLogos/6.png';
+
+// import wallp from './images/Banner/wall.jpg';
 
 const products = [
   {
@@ -185,12 +194,9 @@ const Popproducts = [
   },
 ]
 const companyLogos = [
-  './images/CompanyLogos/1.png',
-  './images/CompanyLogos/2.png',
-  './images/CompanyLogos/3.png',
-  './images/CompanyLogos/4.png',
-  './images/CompanyLogos/5.png',
-  './images/CompanyLogos/6.png',
+  com1,
+  com2,
+  com3,com4,com5,com6
 ];
 
 function App() {
@@ -208,13 +214,13 @@ function App() {
       <CustomBanner/>
       <Paints products={paintProducts}/>
       {/* <ToolsBanner/> */}
-      <DualSectionBanner imageUrl="./images/ToolsBanner/1.jpg"
+      <DualSectionBanner imageUrl={bannerimg}
         heading="20% OFF ON TOOLS"
         text="Drill, Hammer, cutter, screwdrivers, abrasives,.pliers,etc"
         buttonText="Shop Now"/>
         <PopularTools products={Popproducts}/>
         <Categories/>
-        <Wallpaper imageUrl={require('./images/Banner/wall.jpg')}
+        {/* <Wallpaper imageUrl={require(wallp)} */}
         playstoreLink="https://play.google.com/store/apps"/>
         <Switches products={paintProducts}/>
         <CompanyLogos logos={companyLogos}/>
